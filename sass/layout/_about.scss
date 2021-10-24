@@ -1,0 +1,62 @@
+.about-us {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-title-color);
+    margin-bottom: 10px;
+    }
+
+.about-item {
+    margin-left: 30px;
+    width: 270px;
+    flex-basis: calc(100% / 4 - 30px);
+}
+
+.about-item:nth-child(4n+1) {
+   margin-left: 0px; 
+}
+
+.header-us {
+    display: flex;
+}
+
+
+.header-about-us {
+    padding-top: 94px;
+  padding-bottom: 47px;
+}
+
+.about-list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-top: 10px;
+    display: flex;
+ }
+ .about-us:not(:last-child) {
+    margin-right: 50px }
+
+    .icon-antena,
+    .icon-clock,
+    .icon-diagram,
+    .icon-astronaut  {
+        height: 70px;
+        width: 70px;
+    }  
+
+    .pictures {
+        height: 120px;
+        background-color: #F5F4FA;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }

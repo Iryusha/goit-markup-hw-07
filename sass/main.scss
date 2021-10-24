@@ -1,7 +1,18 @@
-body {
-    ul {
-        li {
-            color: aqua;
-        }
-    }
-}
+@import './utils/vars';
+@import './base/reset';
+@import './base/common';
+@import './components/container';
+@import './components/herobtn';
+@import './components/social';
+@import './components/menubtn';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-form';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/we-do';
+@import './layout/team';
+@import './layout/client';
+@import './layout/footer';
+@import './layout/galary';
