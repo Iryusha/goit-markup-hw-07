@@ -10,10 +10,11 @@
 
    
 
-.close-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.close_btn {
+    @include centerflex();
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -24,22 +25,22 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
-.close-button {
+.close_button {
     width: 18px;
     height: 18px;
     justify-content: center;
     align-items: center;
+    &:hover {
+        fill: var(--secondary-text-color);
+    }
 }
-.close-button:hover {
-    fill: var(--secondary-text-color);
+// .close-button:hover {
+//     fill: var(--secondary-text-color);
    
-}
+// }
 /* .close-btn:hover {
     border-color:var(--secondary-text-color)
 } */
 
-.backdrop.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}   
+  
+

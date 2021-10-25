@@ -1,9 +1,9 @@
-.menu-btn:hover,
-.menu-btn:focus {
+.menu_btn:hover,
+.menu_btn:focus {
     color:var(--primary-title-color);
     background-color: var(--secondary-text-color);
 }
-.menu-btn {
+.menu_btn {
     border: none;
     font-family: Roboto;
     font-style: normal;
@@ -23,8 +23,18 @@
     
 }
 
-
 .menu {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.container_nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.menu_title {
+    &:not(:first-child) {
+    margin-left: 30px;
+}
 }

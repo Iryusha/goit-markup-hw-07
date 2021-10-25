@@ -1,13 +1,13 @@
-.header-we-do {
+.header_we_do {
     padding-top: 47px;
   padding-bottom: 94px;
 } 
-.we-do-list {
+.we_do_list {
     display: flex;
     flex-basis: calc(100% / 3 - 90px);
     
 }  
-.we-do {
+.we_do {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -18,11 +18,12 @@
     color: var(--secondary-title-color);
     margin-bottom: 50px;
 }
-.photo-we-do:not(:first-child) {
+.photo_we_do{
+  &:not(:first-child) {
     margin-left: 30px;
-   
+  }  
 }
-.we-do-text {
+.we_do_text {
     position: absolute;
     font-family: Roboto;
     font-style: normal;
@@ -33,9 +34,11 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centerflex();
+
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
        
     line-height: 1.17;
     width: 100%;
@@ -45,6 +48,6 @@
     bottom: 0;
 }
     
-.we-do-title {
+.we_do_title {
     position: relative;
 }

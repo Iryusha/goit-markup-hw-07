@@ -1,4 +1,4 @@
-.about-us {
+.about_us {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -10,27 +10,29 @@
     margin-bottom: 10px;
     }
 
-.about-item {
+.about_item {
     margin-left: 30px;
     width: 270px;
     flex-basis: calc(100% / 4 - 30px);
 }
 
-.about-item:nth-child(4n+1) {
+.about_item {
+    &:nth-child(4n+1) {
    margin-left: 0px; 
 }
+}
 
-.header-us {
+.header_us {
     display: flex;
 }
 
 
-.header-about-us {
+.header_about_us {
     padding-top: 94px;
   padding-bottom: 47px;
 }
 
-.about-list {
+.about_list {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -41,13 +43,15 @@
     margin-top: 10px;
     display: flex;
  }
- .about-us:not(:last-child) {
+ .about_us {
+   &:not(:last-child) {
     margin-right: 50px }
+   }
 
-    .icon-antena,
-    .icon-clock,
-    .icon-diagram,
-    .icon-astronaut  {
+    .icon_antena,
+    .icon_clock,
+    .icon_diagram,
+    .icon_astronaut  {
         height: 70px;
         width: 70px;
     }  
@@ -56,7 +60,8 @@
         height: 120px;
         background-color: #F5F4FA;
         margin-bottom: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include centerflex();
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
         }
