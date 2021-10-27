@@ -3,6 +3,12 @@
     height: 44px;
    
 }
+.social_item {
+    &:not(:first-child) {
+    
+    margin-left: 10px;
+    }
+}
 .social_link {
     
     width: 100%;
@@ -30,21 +36,14 @@
 //     fill:#ffffff;
 //     border-color: var(--secondary-text-color)
 // }
-.social_list {
+.social {
     @include centerflex();
     // display: flex;
     // justify-content: center;
     // align-items: center;
 }
-.social_item {
-    &:not(:first-child) {
-    
-    margin-left: 10px;
-    }
-}
-.team_list_item {
-    margin-bottom: 30px;
-}
+
+
 .social_icon {
     width: 20px;
     height: 20px;
