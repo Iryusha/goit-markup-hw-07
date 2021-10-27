@@ -1,4 +1,4 @@
-.header_we_do {
+.we_do {
     padding-top: 47px;
   padding-bottom: 94px;
 } 
@@ -7,7 +7,7 @@
     flex-basis: calc(100% / 3 - 90px);
     
 }  
-.we_do {
+.we_do_title {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -48,6 +48,6 @@
     bottom: 0;
 }
     
-.we_do_title {
+.we_do_card {
     position: relative;
 }

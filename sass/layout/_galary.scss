@@ -28,12 +28,12 @@
 }
 }
 
-.card{
+.card {
     padding: 20px 24px;
     border: 1px solid #eeeeee;
     border-top: none;
 }
-.galary_top {
+.galary_item {
     position: relative;
     overflow: hidden;
 }
@@ -82,12 +82,12 @@
 // .galary_link:hover .galary_text {
 //     transform: translate(0);
 // }
-.galary_list {
+.galary {
     display: flex;
     flex-wrap: wrap;
    
 }
-.galary_item {
+.galary_list {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;

@@ -10,29 +10,29 @@
     margin-bottom: 10px;
     }
 
-.about_item {
+.about_list {
     margin-left: 30px;
     width: 270px;
     flex-basis: calc(100% / 4 - 30px);
 }
 
-.about_item {
+.about_list {
     &:nth-child(4n+1) {
    margin-left: 0px; 
 }
 }
 
-.header_us {
+.about_us_item {
     display: flex;
 }
 
 
-.header_about_us {
+.title_about_us {
     padding-top: 94px;
   padding-bottom: 47px;
 }
 
-.about_list {
+.about_us_text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;

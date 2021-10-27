@@ -37,9 +37,10 @@
     // align-items: center;
 }
 .social_item {
-    .social_item {
+    &:not(:first-child) {
+    
     margin-left: 10px;
-}
+    }
 }
 .team_list_item {
     margin-bottom: 30px;
