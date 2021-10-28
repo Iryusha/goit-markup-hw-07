@@ -1,4 +1,4 @@
-.we_do {
+.we-do {
     padding-top: 47px;
   padding-bottom: 94px;
 } 
@@ -7,7 +7,7 @@
     flex-basis: calc(100% / 3 - 90px);
     
 }  
-.we_do_title {
+.we-do__title {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -18,12 +18,12 @@
     color: var(--secondary-title-color);
     margin-bottom: 50px;
 }
-.photo_we_do{
+.we-do__photo {
   &:not(:first-child) {
     margin-left: 30px;
   }  
 }
-.we_do_text {
+.we-do__text {
     position: absolute;
     font-family: Roboto;
     font-style: normal;
@@ -48,6 +48,6 @@
     bottom: 0;
 }
     
-.we_do_card {
+.we-do__card {
     position: relative;
 }
