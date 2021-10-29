@@ -609,7 +609,7 @@ top: 261px; */
   background-size: cover;
 }
 
-.title_about_us {
+.about_us-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -621,14 +621,13 @@ top: 261px; */
   margin-bottom: 10px;
 }
 
-.about_us-item1 {
-  margin-left: 30px;
+.about_us-item {
   width: 270px;
   flex-basis: calc(100% / 4 - 30px);
 }
 
-.about_us-item1:nth-child(4n+1) {
-  margin-left: 0px;
+.about_us-item:not(:first-child) {
+  margin-left: 30px;
 }
 
 .about_us-list {
@@ -695,7 +694,7 @@ top: 261px; */
   margin-bottom: 50px;
 }
 
-.we-do__photo:not(:first-child) {
+.we-do__item:not(:first-child) {
   margin-left: 30px;
 }
 

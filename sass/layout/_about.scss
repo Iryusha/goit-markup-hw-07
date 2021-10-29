@@ -1,4 +1,4 @@
-.title_about_us {
+.about_us-title {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -10,13 +10,13 @@
     margin-bottom: 10px;
     }
 
-.about_us-item1 {
+.about_us-item {
     // margin-left: 30px;
     width: 270px;
     flex-basis: calc(100% / 4 - 30px);
 }
 
-.about_us-item1 {
+.about_us-item {
     &:not(:first-child) {
         margin-left: 30px;
       } 
