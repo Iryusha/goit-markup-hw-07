@@ -651,7 +651,7 @@ top: 261px; */
   display: flex;
 }
 
-.title_about_us:not(:last-child) {
+.about_us-title:not(:last-child) {
   margin-right: 50px;
 }
 
